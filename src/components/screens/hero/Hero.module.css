@@ -75,7 +75,7 @@
 }
 
 .image {
-  height: min(75vh, 760px);
+  /* height: min(75vh, 760px); */
   position: relative;
   overflow: hidden;
 }
@@ -108,7 +108,7 @@
     font-size: 48px;
   }
 
-  .image {
+  /* .image {
     height: 480px;
-  }
+  } */
 }

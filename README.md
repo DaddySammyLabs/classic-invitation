@@ -1,59 +1,60 @@
-npm create vite@latest NameOfProject
+# Classic Wedding Invitation Website 💍
 
-# Invitation Wedding
+A _modern_ and _elegant_ wedding invitation website built with React. The application provides a beautiful digital invitation where guests can explore wedding details, view the event schedule, find the venue, and confirm their attendance.
 
-Beautiful Wedding Invitation App
+## 🚀 Live Demo
 
-### Task
+**Live Demo**: [ Classic Web invitation URL](https://elegant-invitation-xi.vercel.app/)
 
-задача: нужно создать сайт визитка на свадьбу
+Repository: [GitHub repository URL](https://github.com/DaddySammyLabs/classic-invitation)
 
-1. секции разделить по компонентам
-2. для компонентов использовать ComponentTitle.module.css
-3. компоненты собрать в pages/Home.jsx
+## 📸 Preview
 
-архитектура:
-App.jsx -> Home.jsx -> components
+![Invitation Welcome](src/assets/images/classic_hero.png)
+![Date Section](src/assets/images/classic_home.png)
 
-### Общие принципы разработки
+![Mobile Invitation Website](src/assets/images/classic_mobile.png)
 
-Каждая секция — отдельный React-компонент.
-Для каждого компонента используется собственный CSS Module.
-Стили не должны конфликтовать между компонентами.
-Home.jsx отвечает только за композицию секций.
-App.jsx отвечает за подключение страницы.
+## 📱 Mobile App
 
-### Адаптивность предусматриваем сразу для мобильных устройств.
+The project also includes a dedicated mobile version of the sneaker store.
 
-Можем реализовать полноценный сайт по этой архитектуре, постепенно создавая каждый компонент.
+The mobile app adapts the main shopping experience for mobile devices and provides users with convenient access to the catalog, favorites, shopping cart, orders, and other core features.
 
-### стиль
+The mobile version was created to practice building a consistent user experience across different platforms while keeping the application architecture and business logic reusable.
 
-Elegant — минимализм, бежевый, элегантная типографика.
-Romantic — цветы, нежные оттенки, романтика.
-Modern — современный дизайн, крупные фотографии, анимации.
-Classic — традиционное свадебное оформление.
+---
 
-### Main Style
+## 🛠️ Tech Stack
 
-1. Какой вариант главного экрана предпочитаешь?
-   - A — большое фото молодожёнов на весь экран, текст поверх.
-   - B — слева имена и дата, справа большое фото.
-   - C — минималистичный экран с именами, датой и небольшим фото.
+### ⚛️ Core
 
-### Что рекомендую сделать дальше
+- **React**
+- **JavaScript (ES6+)**
+- **Vite**
+- **React Router**
 
-Header — фиксированное меню с плавной прокруткой к секциям.
-Анимации — плавное появление секций при прокрутке.
-RSVP Backend — реальное сохранение ответов гостей.
-Музыка — фоновая мелодия с кнопкой включения/выключения.
-Адаптивность — финальная проверка мобильной версии.
+### 🎨 Styling
 
-## React Compiler
+- **Tailwind CSS**
+- **CSS Modules**
+- **Global CSS**
 
-## Expanding the ESLint configuration
+### 🧠 State & Logic
 
-## Structure of project
+- **React Hooks**
+- **Context API**
+- **Custom Hooks**
+
+### 📦 Libraries
+
+- **@formkit/auto-animate**
+- **lucide-react**
+- **Reveal**
+
+---
+
+## 🧠 Architecture
 
 ```
 src/
@@ -61,38 +62,16 @@ src/
 │   ├── Header/
 │   │   ├── Header.jsx
 │   │   └── Header.module.css
-│   │
 │   ├── Hero/
 │   │   ├── Hero.jsx
 │   │   └── Hero.module.css
-│   │
 │   ├── Invitation/
-│   │   ├── Invitation.jsx
-│   │   └── Invitation.module.css
-│   │
 │   ├── Timer/
-│   │   ├── Timer.jsx
-│   │   └── Timer.module.css
-│   │
 │   ├── Location/
-│   │   ├── Location.jsx
-│   │   └── Location.module.css
-│   │
 │   ├── Program/
-│   │   ├── Program.jsx
-│   │   └── Program.module.css
-│   │
 │   ├── DressCode/
-│   │   ├── DressCode.jsx
-│   │   └── DressCode.module.css
-│   │
 │   ├── RSVP/
-│   │   ├── RSVP.jsx
-│   │   └── RSVP.module.css
-│   │
 │   └── Footer/
-│       ├── Footer.jsx
-│       └── Footer.module.css
 │
 ├── pages/
 │   ├── Home.jsx
@@ -101,3 +80,45 @@ src/
 ├── App.jsx
 └── main.jsx
 ```
+
+## 🌐 Multilingual Support
+
+The application supports multiple languages.
+
+Text content is stored separately in:
+
+src/constants/texts.js
+
+Language-related functionality is located in the providers directory.
+
+This approach keeps text content separated from UI components and makes adding additional languages easier.
+
+## 🧭 Routing
+
+The application uses React Router for client-side navigation.
+
+### 💻 Installation
+
+Clone the repository:
+
+git clone https://github.com/DaddySammyLabs/classic-invitation.git
+
+Navigate to the project:
+
+`cd invitation-wedding`
+
+Install dependencies:
+
+`npm install`
+
+Start the development server:
+
+`npm run dev`
+
+Build the project for production:
+
+`npm run build`
+
+## React Compiler
+
+## Expanding the ESLint configuration

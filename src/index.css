@@ -1,6 +1,18 @@
+:root {
+  --color-beige: #f3ebdd;
+  --color-beige-light: #faf7f1;
+  --color-sand: #d9c8ad;
+
+  --color-green: #183d32;
+  --color-green-light: #31594a;
+  --color-green-dark: #102c24;
+
+  --color-gold: #a18b68;
+  --color-text: #393b32;
+  --color-muted: #81796c;
+}
+
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -9,13 +21,20 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  background: #f8f5f0;
-  color: #34332f;
+  margin: 0;
+  background: var(--color-beige-light);
+  color: var(--color-text);
+  font-family: Georgia, serif;
 }
 
 button,
 input,
-textarea {
+textarea,
+select {
   font: inherit;
+}
+
+::selection {
+  background: var(--color-green);
+  color: white;
 }

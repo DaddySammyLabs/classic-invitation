@@ -1,4 +1,4 @@
-// import Header from "@/components/ui/header/ Header";
+import Header from "@/components/ui/header/ Header";
 import Hero from "@/components/screens/hero/Hero";
 import Invitation from "@/components/screens/invitation/Invitation";
 import Timer from "@/components/ui/timer/Timer";
@@ -13,7 +13,7 @@ import styles from "./Home.module.css";
 function Home() {
   return (
     <main className={styles.home}>
-      {/* <Header /> */}
+      <Header />
 
       <Hero />
       <Invitation />
