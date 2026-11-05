@@ -1,0 +1,29 @@
+.footer {
+  padding: 65px 20px;
+  text-align: center;
+  background: #e9e0d3;
+  color: #6c5c49;
+}
+
+.footer h2 {
+  font:
+    400 42px Georgia,
+    serif;
+}
+
+.footer p {
+  font:
+    italic 17px Georgia,
+    serif;
+}
+
+.footer span {
+  display: block;
+  margin: 25px 0;
+  letter-spacing: 4px;
+}
+
+.footer small {
+  font-size: 9px;
+  letter-spacing: 4px;
+}

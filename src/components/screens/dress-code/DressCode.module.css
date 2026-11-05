@@ -1,0 +1,43 @@
+.dress {
+  padding: 100px 20px;
+  text-align: center;
+  background: #eee7dc;
+  scroll-margin-top: 75px;
+}
+
+.dress > span {
+  font-size: 10px;
+  letter-spacing: 4px;
+  color: #a18e76;
+}
+
+.dress h2 {
+  font:
+    400 42px Georgia,
+    serif;
+  margin: 20px 0;
+}
+
+.dress p {
+  max-width: 500px;
+  margin: 20px auto;
+  color: #786e62;
+  line-height: 1.8;
+}
+
+.palette {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 40px 0;
+}
+
+.palette div {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.note {
+  font-size: 14px;
+}

@@ -1,0 +1,64 @@
+.rsvp {
+  padding: 110px 20px;
+  text-align: center;
+  background: #f8f5ef;
+  scroll-margin-top: 75px;
+}
+
+.rsvp > span {
+  font-size: 10px;
+  letter-spacing: 4px;
+  color: #a18e76;
+}
+
+.rsvp h2 {
+  font:
+    400 42px Georgia,
+    serif;
+  margin: 20px 0;
+}
+
+.rsvp > p {
+  color: #82796e;
+}
+
+.rsvp form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 450px;
+  margin: 40px auto 0;
+}
+
+.rsvp input,
+.rsvp select,
+.rsvp textarea {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ded5c9;
+  background: transparent;
+  color: #514638;
+  font:
+    14px Georgia,
+    serif;
+  outline: none;
+}
+
+.rsvp textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.rsvp button {
+  padding: 17px;
+  border: 1px solid #a18e76;
+  background: #a18e76;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+
+.rsvp button:hover {
+  background: #81745f;
+}

@@ -1,0 +1,52 @@
+.program {
+  padding: 110px 20px;
+  background: #f8f5ef;
+  text-align: center;
+  scroll-margin-top: 75px;
+}
+
+.program > span {
+  font-size: 10px;
+  letter-spacing: 4px;
+  color: #a18e76;
+}
+
+.program h2 {
+  margin: 20px 0 50px;
+  font:
+    400 42px Georgia,
+    serif;
+}
+
+.timeline {
+  max-width: 520px;
+  margin: auto;
+  text-align: left;
+}
+
+.event {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 25px;
+  padding: 25px 0;
+  border-bottom: 1px solid #e6ded2;
+}
+
+.event strong {
+  font:
+    24px Georgia,
+    serif;
+  color: #a18e76;
+}
+
+.event h3 {
+  margin: 0 0 8px;
+  font:
+    400 22px Georgia,
+    serif;
+}
+
+.event p {
+  color: #82796e;
+  font-size: 14px;
+}

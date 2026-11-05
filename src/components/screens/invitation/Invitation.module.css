@@ -1,0 +1,37 @@
+.invitation {
+  padding: 110px 20px;
+  text-align: center;
+  background: #eee7dc;
+  scroll-margin-top: 75px;
+}
+
+.subtitle {
+  color: #a18e76;
+  font-size: 11px;
+  letter-spacing: 5px;
+}
+
+.invitation h2 {
+  margin: 25px auto;
+  font:
+    400 clamp(30px, 4vw, 48px) Georgia,
+    serif;
+  color: #514638;
+}
+
+.invitation p {
+  max-width: 580px;
+  margin: 15px auto;
+  color: #786e62;
+  font:
+    17px/1.9 Georgia,
+    serif;
+}
+
+.names {
+  margin-top: 40px;
+  font:
+    italic 25px Georgia,
+    serif;
+  color: #a18e76;
+}
