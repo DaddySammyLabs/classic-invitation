@@ -18,8 +18,8 @@ import styles from "./Home.module.css";
 function Home() {
   return (
     <>
-      <Header />
       <main className={styles.home}>
+        <Header />
         <HeroPhoto />
         <Hero />
 
@@ -31,8 +31,8 @@ function Home() {
         <RSVP />
 
         <FooterBeige />
+        <Footer />
       </main>
-      <Footer />
     </>
   );
 }
