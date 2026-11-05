@@ -1,4 +1,4 @@
-.dress {
+/* .dress {
   padding: 100px 20px;
   text-align: center;
   background: #eee7dc;
@@ -40,4 +40,50 @@
 
 .note {
   font-size: 14px;
+} */
+
+.dress {
+  padding: 110px 20px;
+  text-align: center;
+  background: var(--green);
+  color: var(--beige);
+  position: relative;
+}
+
+.dress > span {
+  color: var(--gold-light);
+  letter-spacing: 5px;
+  font-size: 10px;
+}
+
+.dress h2 {
+  font: 400 48px var(--font-heading);
+  margin: 25px 0;
+}
+
+.dress p {
+  max-width: 550px;
+  margin: 20px auto;
+  color: #e4dccf;
+  font: 19px/1.7 var(--font-heading);
+}
+
+.palette {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin: 45px 0;
+}
+
+.palette div {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid var(--gold);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.note {
+  color: var(--gold-light) !important;
+  font-size: 15px !important;
 }

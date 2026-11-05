@@ -1,7 +1,6 @@
 .location {
   padding: 110px 6%;
-  background: #f8f5ef;
-  scroll-margin-top: 75px;
+  background: var(--beige);
 }
 
 .heading {
@@ -10,131 +9,104 @@
 }
 
 .heading > span {
+  color: var(--gold);
   font-size: 10px;
-  letter-spacing: 4px;
-  color: #a18e76;
+  letter-spacing: 5px;
 }
 
 .heading h2 {
-  margin: 20px 0;
-  font:
-    400 42px Georgia,
-    serif;
-  color: #514638;
+  font: 400 48px var(--font-heading);
+  color: var(--green);
 }
 
 .heading p {
-  max-width: 450px;
-  margin: auto;
-  color: #82796e;
-  font:
-    16px/1.8 Georgia,
-    serif;
+  color: var(--muted);
+  font: 18px/1.7 var(--font-heading);
 }
 
 .card {
+  max-width: 1150px;
+  margin: auto;
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
-  max-width: 1100px;
-  min-height: 430px;
-  margin: auto;
-  background: #eee7dc;
+  background: var(--green);
+  border: 1px solid var(--gold);
+  padding: 8px;
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 45px 25px;
+  padding: 40px 25px;
+  color: var(--beige);
 }
 
 .label {
-  font-size: 10px;
+  color: var(--gold-light);
   letter-spacing: 4px;
-  color: #a18e76;
+  font-size: 10px;
 }
 
 .info h3 {
-  margin: 25px 0 5px;
-  font:
-    400 34px Georgia,
-    serif;
-  color: #514638;
+  font: 400 42px var(--font-heading);
+  color: var(--beige);
 }
 
 .subtitle {
-  font:
-    italic 18px Georgia,
-    serif;
-  color: #a18e76;
+  color: var(--gold-light);
+  font: italic 24px var(--font-heading);
 }
 
 .divider {
-  width: 55px;
+  width: 65px;
   height: 1px;
-  margin: 25px 0;
-  background: #b49b7b;
+  background: var(--gold);
+  margin: 20px;
 }
 
 .address {
-  font:
-    15px/1.9 Georgia,
-    serif;
-  color: #786e62;
+  color: var(--beige);
+  font-size: 13px;
+  line-height: 2;
 }
 
 .button {
-  display: inline-block;
   margin-top: 25px;
   padding: 16px 25px;
-  border: 1px solid #a18e76;
-  color: #6c5c49;
+  color: var(--beige);
+  border: 1px solid var(--gold);
   text-decoration: none;
   font-size: 10px;
   letter-spacing: 2px;
-  transition: all 0.3s ease;
+  transition: var(--transition);
 }
 
 .button:hover {
-  background: #a18e76;
-  color: white;
+  background: var(--beige);
+  color: var(--green);
 }
 
 .map {
   min-height: 430px;
-  overflow: hidden;
 }
 
 .map iframe {
-  display: block;
   width: 100%;
   height: 100%;
   min-height: 430px;
+  display: block;
+  border: 0;
 }
 
 @media (max-width: 768px) {
-  .location {
-    padding: 80px 20px;
-  }
-
-  .heading h2 {
-    font-size: 34px;
-  }
-
   .card {
     grid-template-columns: 1fr;
   }
 
-  .info {
-    padding: 50px 20px;
-  }
-
-  .map {
-    min-height: 350px;
-  }
-
+  .map,
   .map iframe {
     min-height: 350px;
   }

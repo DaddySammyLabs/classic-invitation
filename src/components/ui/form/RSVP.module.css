@@ -1,4 +1,4 @@
-.rsvp {
+/* .rsvp {
   padding: 110px 20px;
   text-align: center;
   background: #f8f5ef;
@@ -61,4 +61,74 @@
 
 .rsvp button:hover {
   background: #81745f;
+} */
+
+.rsvp {
+  padding: 110px 20px;
+  text-align: center;
+  background: var(--beige-light);
+}
+
+.rsvp > span {
+  color: var(--gold);
+  font-size: 10px;
+  letter-spacing: 5px;
+}
+
+.rsvp h2 {
+  font: 400 48px var(--font-heading);
+  color: var(--green);
+  margin: 25px 0;
+}
+
+.rsvp > p {
+  color: var(--muted);
+  font: 18px var(--font-heading);
+}
+
+.rsvp form {
+  max-width: 470px;
+  margin: 45px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.rsvp input,
+.rsvp select,
+.rsvp textarea {
+  width: 100%;
+  padding: 17px;
+  background: transparent;
+  border: 1px solid var(--beige-dark);
+  color: var(--green);
+  outline: none;
+  transition: var(--transition);
+  font-size: 13px;
+}
+
+.rsvp input:focus,
+.rsvp select:focus,
+.rsvp textarea:focus {
+  border-color: var(--gold);
+}
+
+.rsvp textarea {
+  min-height: 110px;
+}
+
+.rsvp button {
+  padding: 19px;
+  background: var(--green);
+  border: 1px solid var(--gold);
+  color: var(--beige);
+  cursor: pointer;
+  font-size: 10px;
+  letter-spacing: 3px;
+  transition: var(--transition);
+}
+
+.rsvp button:hover {
+  background: var(--green-dark);
+  color: var(--gold-light);
 }

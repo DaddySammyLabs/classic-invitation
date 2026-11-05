@@ -1,52 +1,49 @@
 .program {
   padding: 110px 20px;
-  background: #f8f5ef;
   text-align: center;
-  scroll-margin-top: 75px;
+  background: var(--beige-light);
 }
 
 .program > span {
+  color: var(--gold);
+  letter-spacing: 5px;
   font-size: 10px;
-  letter-spacing: 4px;
-  color: #a18e76;
 }
 
 .program h2 {
-  margin: 20px 0 50px;
-  font:
-    400 42px Georgia,
-    serif;
+  font: 400 48px var(--font-heading);
+  color: var(--green);
+  margin: 25px 0 55px;
 }
 
 .timeline {
-  max-width: 520px;
+  max-width: 580px;
   margin: auto;
   text-align: left;
 }
 
 .event {
   display: grid;
-  grid-template-columns: 100px 1fr;
-  gap: 25px;
+  grid-template-columns: 110px 1fr;
+  gap: 30px;
   padding: 25px 0;
-  border-bottom: 1px solid #e6ded2;
+  border-bottom: 1px solid var(--beige-dark);
+  position: relative;
 }
 
 .event strong {
-  font:
-    24px Georgia,
-    serif;
-  color: #a18e76;
+  font: 500 30px var(--font-heading);
+  color: var(--gold);
 }
 
 .event h3 {
   margin: 0 0 8px;
-  font:
-    400 22px Georgia,
-    serif;
+  font: 500 26px var(--font-heading);
+  color: var(--green);
 }
 
 .event p {
-  color: #82796e;
-  font-size: 14px;
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 1px;
 }

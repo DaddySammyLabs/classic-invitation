@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap");
+
 :root {
   --color-beige: #f3ebdd;
   --color-beige-light: #faf7f1;
@@ -10,6 +12,25 @@
   --color-gold: #a18b68;
   --color-text: #393b32;
   --color-muted: #81796c;
+
+  --beige: #f3ebdd;
+  --beige-light: #faf7f1;
+  --beige-dark: #e8ddcc;
+
+  --green: #183d32;
+  --green-dark: #102d25;
+  --green-light: #31594a;
+
+  --gold: #a18b68;
+  --gold-light: #c7b18c;
+
+  --text: #393b32;
+  --muted: #81796c;
+
+  --font-heading: "Cormorant Garamond", serif;
+  --font-body: "Montserrat", sans-serif;
+
+  --transition: all 0.35s ease;
 }
 
 * {
@@ -18,13 +39,15 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 body {
   margin: 0;
-  background: var(--color-beige-light);
-  color: var(--color-text);
-  font-family: Georgia, serif;
+  background: var(--beige-light);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-weight: 300;
 }
 
 button,
@@ -34,7 +57,12 @@ select {
   font: inherit;
 }
 
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 ::selection {
-  background: var(--color-green);
-  color: white;
+  background: var(--green);
+  color: var(--beige);
 }

@@ -1,4 +1,4 @@
-.invitation {
+/* .invitation {
   padding: 110px 20px;
   text-align: center;
   background: #eee7dc;
@@ -34,4 +34,44 @@
     italic 25px Georgia,
     serif;
   color: #a18e76;
+} */
+.invitation {
+  padding: 120px 20px;
+  text-align: center;
+  background: var(--green);
+  color: var(--beige);
+  position: relative;
+}
+
+.invitation::before {
+  content: "";
+  position: absolute;
+  inset: 15px;
+  border: 1px solid rgba(193, 166, 120, 0.35);
+  pointer-events: none;
+}
+
+.subtitle {
+  color: var(--gold-light);
+  font-size: 10px;
+  letter-spacing: 6px;
+}
+
+.invitation h2 {
+  max-width: 800px;
+  margin: 30px auto;
+  font: 400 clamp(35px, 5vw, 58px) var(--font-heading);
+}
+
+.invitation p {
+  max-width: 580px;
+  margin: 20px auto;
+  font: 400 20px/1.8 var(--font-heading);
+  color: #e4dccf;
+}
+
+.names {
+  margin-top: 45px;
+  font: italic 34px var(--font-heading);
+  color: var(--gold-light);
 }

@@ -1,29 +1,31 @@
 .footer {
-  padding: 65px 20px;
+  padding: 85px 20px;
   text-align: center;
-  background: #e9e0d3;
-  color: #6c5c49;
+  background: var(--green-dark);
+  color: var(--beige);
+  border-top: 1px solid var(--gold);
 }
 
 .footer h2 {
-  font:
-    400 42px Georgia,
-    serif;
+  font: 400 58px var(--font-heading);
+  letter-spacing: 5px;
+  color: var(--gold-light);
 }
 
 .footer p {
-  font:
-    italic 17px Georgia,
-    serif;
+  font: italic 22px var(--font-heading);
+  color: var(--beige);
 }
 
 .footer span {
   display: block;
-  margin: 25px 0;
-  letter-spacing: 4px;
+  margin: 30px 0;
+  color: var(--gold-light);
+  letter-spacing: 5px;
 }
 
 .footer small {
   font-size: 9px;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
+  color: var(--gold);
 }
